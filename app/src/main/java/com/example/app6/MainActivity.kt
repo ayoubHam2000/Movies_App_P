@@ -2,6 +2,7 @@ package com.example.app6
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.app6.Classes.Movie
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
     fun test()
     {
-        println("Hi!.")
+        val t = Movie("sdf")
     }
 
 }

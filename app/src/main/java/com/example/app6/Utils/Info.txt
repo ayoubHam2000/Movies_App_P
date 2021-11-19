@@ -1,0 +1,10 @@
+video = (titre, story, starts, image,trealer, gotham, date, langue, xarika, genre, duree)
+video - > film
+video - > serie (nb_seasion)
+video -> seatie -> ep(id_video, nb_episodre)
+
+
+acteurs = (film, name, prenom, film_name, is_principal, image, genre, NATIONALITE)
+REALISATEUR = (nom, prenom, NATIONALITE, id_film, genre, image)
+
+TODO : make a data base
